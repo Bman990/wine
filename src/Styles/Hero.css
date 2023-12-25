@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.heroContainer {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Corrected gradient direction */
+    background-color: rgb(255, 198, 198);
+}
+
+.heroContent {
+    /* background-color: red; */
+    height: 84%;
+    width: 100%;
+}
+
+.heroImageContainer {
+    /* background-color: rgb(100, 145, 184); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.heroImageDiv {
+    /* background-color: aquamarine; */
+    width: 55%;
+    height: 100%;
+    margin-top: 1.8%;
+    margin-top: 5em;
+}
+
+.heroImageStyle {
+    margin: 0;
+    width: 100%;
+    height: 90%;
+}
+
+.productNameContainer{
+    margin: 0;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageDivText1{
+    margin: 0;
+    /* background-color: #276fa5; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.imageDivText2 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    /* background-color: #276fa5; */
+    font-weight: 300;
+}
+
+
+
+.heroTextContainer {
+    /* background-color: #276fa5; */
+    width: max-content;
+}
+
+
+.ctaContainer{
+    height: max-content;
+    width: 100vw;
+}
+
+.ctaContent {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaH2{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.ctaH3{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+    .heroImageContainer{
+        margin-bottom: 0;
+    }
+    .heroImageDiv {
+        width: 80%;
+        height: 60%;
+    }
+
+    .ctaContainer {
+        width: 90vw;
+    }
+
+    .imageDivText1,
+    .imageDivText2,
+    .ctaH2,
+    .ctaH3 {
+        font-size: 100%; /* Adjust the percentage as needed */
+    }
+}

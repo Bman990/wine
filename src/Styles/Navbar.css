@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.navBarContainer {
+    /* background-color: aqua; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navUL {
+    list-style: none;
+    height: 95%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navUL > li{
+    writing-mode: vertical-rl;
+}
+
+.linkStyle {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linkStyle:hover{
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.navSpan1:hover{
+    color: #800020;
+}
+
+.navSpan2:hover{
+    color: #e6a46a;
+}
+
+.navSpan3:hover{
+    color: #800080;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .navBarContainer{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .navBarContainer{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navBarContainer{
+        display: none;
+    }
+}
